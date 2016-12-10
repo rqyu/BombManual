@@ -1,0 +1,10 @@
+useful scripts:
+
+Mac combine PDF:
+/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py -o /OUTPUTPATH/MERGED.pdf /PATH/*pdf
+
+Mac count pdf pages:
+mdls -name kMDItemNumberOfPages POSIX_PATH_OF_PDF_FILE
+
+file counter:
+ls | wc -l
